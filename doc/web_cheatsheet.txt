@@ -1,0 +1,273 @@
+color: green;
+font-family: Arial, "Times New Roman";
+font-size: 60px;
+font-style: italic;
+font-weight: 200 or bold;
+text-align: center;
+text-indent: 30px;
+text-decoration: underline;
+text-transform: capitalize;
+text-transform: lowercase;
+letter-spacing: 10px;
+word-spacing: 10px;
+line-height: 40px;
+width: 300px;
+height: 300px ;
+background-color: green;
+list-style: none;
+margin: 10px;
+padding: 10px;
+display: inline-block;
+float: left;
+display: block;
+ex: hover {
+  color: red;
+}
+.wrapper {
+  margin: 0 auto;
+  width=1000px;
+}
+.eye-img {
+  background-image: url(path);
+  background-size: ...(contain/cover/auto);
+  background-repeat: no-repeat;
+  background-position: ..., ...;
+}
+left, top, right, bottom : ...px;
+padding-left, top, right, bottom : ...px;
+position: ...; (relative/absolute)
+border-radius:...%;
+Border-style:...;
+calc(... … ...);
+White-space: nowrap;
+overflow: hidden;
+visibility: hidden;
+...:hover {
+  ...
+}
+opacity: ...;
+[attr=value] {
+  ...
+}
+!important
+rgb(..., ..., ...)
+--name: color;
+var(...)
+root: {
+  ...
+}
+max-width: ...px
+@media {
+  ...
+}
+@keyframes wave {
+    10% {
+      transform: rotate(...deg);
+    }
+    20% {
+      transform: rotate(...deg);
+    }
+    30% {
+      transform: rotate(...deg);
+    }
+    40% {
+      transform: rotate(...deg);
+    }
+  }
+rgba(..., ..., ..., ...)
+
+The box-shadow property applies one or more shadows to an element.
+The box-shadow property takes values for
+
+offset-x (how far to push the shadow horizontally from the element),
+offset-y (how far to push the shadow vertically from the element),
+blur-radius,
+spread-radius and
+color, in that order.
+
+USE THIS (box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);)
+
+The blur-radius and spread-radius values are optional.
+
+The opacity property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
+
+opacity: ...;
+(A value of 1 is opaque, which isn't transparent at all.
+A value of 0.5 is half see-through.
+A value of 0 is completely transparent.)
+
+text-transform: ...;
+(Value    Result
+lowercase   "transform me"
+uppercase   "TRANSFORM ME"
+capitalize    "Transform Me"
+initial   Use the default value
+inherit   Use the text-transform value from the parent element
+none    Default: Use the original text)
+
+line-height: ...;
+
+
+USE % INSTEAD FOR MOST OCCASIONS
+
+-----------------------------------------------------------------------------------------
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+CSS--------------------------------------------------------------------------------------
+<!-- <script src="scratch.js"></script>-->
+<!-- <link rel="stylesheet" href="scratch.css" type="text/css"> -->
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+<a href=""></a>
+<nav>
+    <ul>
+        <li></li>
+    </ul>
+</nav>
+<article>
+</article>
+<video autoplay controls>
+    <source src="..." type="video/type of video">
+    Your video doesn't support this type of video player, change your browser!
+</video>
+<input type="text/radio" placeholder="..." required>
+<form action="/url-where-you-want-to-submit-form-data"></form>
+<button type="submit" onClick="js-function"></button>
+<u>...</u>
+<em></em>
+<s>...</s>
+<hr>
+
+Bulma Starter Kit--
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+    </div>
+  </section>
+  </body>
+</html>
+--
+
+HTML-------------------------------------------------------------------------------------
+
+document.querySelector("id/class")(.value/.innerHTML)
+parseInt()
+document.querySelectorAll("id/class")(.value/.innerHTML)
+document.getElementById("...")
+.style.attr = "..."
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> //For Bulma
+
+JS---------------------------------------------------------------------------------------
+
+The last several challenges all set an element's margin or padding with pixels (px). Pixels are a type of length unit, which is what tells the browser how to size or space an item. In addition to px, CSS has a number of different length unit options that you can use.
+The two main types of length units are absolute and relative. Absolute units tie to physical units of length. For example, (in) and (mm) refer to inches and millimeters, respectively. Absolute length units approximate the actual measurement on a screen, but there are some differences depending on a screen's resolution.
+Relative units, such as (em) or (rem), are relative to another length value. For example, em is based on the size of an element's font. If you use it to set the font-size property itself, it's relative to the parent's font-size.
+
+Offset moves the element the opposite direction.
+
+UNITS------------------------------------------------------------------------------------
+
+npm install bulma
+bulma-start
+
+NPM's------------------------------------------------------------------------------------
+
+
+
+Bulma how to download--------------------------------------------------------------------
